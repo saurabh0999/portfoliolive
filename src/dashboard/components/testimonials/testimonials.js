@@ -8,14 +8,14 @@ function Testimonials() {
     animationDelay: "0.5s",
      animationName: "fadeInUp"
   };
-  const mystyle2 = {
-    transform: "translate3d(-2894px, 0px, 0px)",
-    transition: "all 1s ease 0s",
-    width: "5066px"
-  }
-  const mystyle3 = {
-    width:"763px"
-  }
+//   const mystyle2 = {
+//     transform: "translate3d(-2894px, 0px, 0px)",
+//     transition: "all 1s ease 0s",
+//     width: "5066px"
+//   }
+//   const mystyle3 = {
+//     width:"763px"
+//   }
 
   return (
     <>

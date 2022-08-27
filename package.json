@@ -1,5 +1,6 @@
 {
   "name": "personalinfo",
+  "homepage": "https://saurabh0999.github.io/portfoliolive/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.2.0",
     "counterup": "^1.0.2",
+    "gh-pages": "^4.0.0",
     "isotope-layout": "^3.0.6",
     "jquery": "^3.6.0",
     "lightbox": "^0.5.0",
@@ -28,6 +30,8 @@
     "wowjs": "^1.1.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
